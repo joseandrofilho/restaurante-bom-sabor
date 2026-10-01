@@ -1,0 +1,9 @@
+# Arquivos do sistema e do editor
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Capturas e arquivos temporários de validação
+preview-*.png
+
