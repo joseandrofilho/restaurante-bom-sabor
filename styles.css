@@ -34,7 +34,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 1.65;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 body.menu-open {
@@ -189,8 +190,7 @@ h3 {
 .button-outline {
   color: var(--white);
   border-color: rgba(255, 255, 255, 0.55);
-  background: rgba(255, 255, 255, 0.06);
-  backdrop-filter: blur(8px);
+  background: rgba(11, 9, 8, 0.3);
 }
 
 .button-outline:hover {
@@ -357,8 +357,7 @@ h3 {
   bottom: 0;
   left: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.16);
-  background: rgba(11, 9, 8, 0.64);
-  backdrop-filter: blur(14px);
+  background: rgba(11, 9, 8, 0.86);
 }
 
 .quick-info-grid {
@@ -1114,14 +1113,8 @@ h3 {
 }
 
 .motion-ready .hero-media,
-.motion-ready .menu-category,
-.motion-ready .story-image,
-.motion-ready .story-image img,
-.motion-ready .order-steps,
-.motion-ready .delivery-areas,
-.motion-ready .map-frame,
-.motion-ready .location-card {
-  will-change: transform, opacity;
+.motion-ready .story-image img {
+  will-change: transform;
 }
 
 .whatsapp-dialog::backdrop {
