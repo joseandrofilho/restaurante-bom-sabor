@@ -481,6 +481,30 @@ h3 {
   background: var(--ivory);
 }
 
+.buffet-price {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 8px 12px;
+  color: var(--white);
+  border-radius: 10px;
+  background: var(--wine);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.buffet-price strong {
+  padding-left: 10px;
+  color: var(--gold);
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  font-family: "DM Serif Display", serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
 .menu-categories {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

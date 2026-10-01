@@ -5,6 +5,7 @@
 **Nome:** Restaurante Bom Sabor  
 **Segmento:** Restaurante nordestino de comida caseira  
 **Modelo:** Self-service sem balança  
+**Valor do almoço:** R$ 23
 **Desde:** 2011  
 **Localização:** Às margens da BR-230, sentido Campina Grande, em Cajá, Caldas Brandão–PB  
 **Funcionamento:** Segunda a sábado, das 6h às 15h  
@@ -510,7 +511,6 @@ Antes da publicação, confirmar:
 
 - Número oficial do WhatsApp
 - Endereço completo ou ponto de referência
-- Valor e funcionamento exato do self-service
 - Carnes especiais de segunda a sexta
 - Taxas e horários do delivery
 - Formas de pagamento
